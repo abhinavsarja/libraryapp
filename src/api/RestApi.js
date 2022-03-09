@@ -9,9 +9,8 @@ export default class restApi {
             data,
             withCredentials: false,
         }).then((response) => this.handleResponse(response))
-            .catch((error) => {
-                return this.handleServerError(error);
-            });
+          .catch((error) => { return this.handleServerError(error);
+        });
     }
 
     static handleResponse(response) {
@@ -20,7 +19,7 @@ export default class restApi {
 
     static handleServerError(error) {
         //Error can be handled in different ways depending on the returned http code.
-        // For simplicity just returning the json.
+        // For simplicity just returning the json to identify its an error.
         return { status: "error" };
     }
 }
