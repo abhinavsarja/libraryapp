@@ -33,12 +33,12 @@ test('checks Load Data Invalid URL Button exists', () => {
 describe('Load Data Button click starts a spinner', () => {
   const { getByTestId } = renderApp();
   it('Test click event', () => {
-    const component = render(<App />);
-    const button = getByTestId('load-data');
+    render(<App />);
+    const button = getByTestId("load-data");
     fireEvent.click(button);
     jest.useFakeTimers();
     jest.runAllTimers();
-    const loadingmask = getByTestId('mask');
+    const loadingmask = getByTestId("mask");
     expect(loadingmask).toBeInTheDocument();
   });
 });

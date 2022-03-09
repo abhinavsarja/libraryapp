@@ -20,7 +20,9 @@ const ListPage = () => {
     };
 
     useEffect(() => {
-       setIsLoading(false);  
+        if(data.length > 0) {
+            setIsLoading(false);  
+        }
     }, [data]);
 
     async function loadData(invalid) {
