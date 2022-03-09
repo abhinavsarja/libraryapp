@@ -1,0 +1,49 @@
+<testsuites name="jest tests" tests="1" failures="1" time="3.451">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-03-09T13:03:16" time="3.451" tests="1">
+    <testcase classname=" checks page header exists" name=" checks page header exists" time="0.22">
+      <failure>TypeError: Cannot read property &apos;addListener&apos; of undefined
+    at C:\Users\user\work\installed\libraryapp\node_modules\antd\lib\_util\responsiveObserve.js:71:11
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.register (C:\Users\user\work\installed\libraryapp\node_modules\antd\lib\_util\responsiveObserve.js:61:32)
+    at Object.subscribe (C:\Users\user\work\installed\libraryapp\node_modules\antd\lib\_util\responsiveObserve.js:38:33)
+    at C:\Users\user\work\installed\libraryapp\node_modules\antd\lib\grid\hooks\useBreakpoint.js:21:47
+    at invokePassiveEffectCreate (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:23487:20)
+    at HTMLUnknownElement.callCallback (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:3945:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+    at invokeEventListeners (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:94:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\user\work\installed\libraryapp\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:231:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:3994:16)
+    at invokeGuardedCallback (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:4056:31)
+    at flushPassiveEffectsImpl (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:23574:9)
+    at unstable_runWithPriority (C:\Users\user\work\installed\libraryapp\node_modules\scheduler\cjs\scheduler.development.js:468:12)
+    at runWithPriority$1 (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:11276:10)
+    at flushPassiveEffects (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:23447:14)
+    at performSyncWorkOnRoot (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:22269:3)
+    at C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:11327:26
+    at unstable_runWithPriority (C:\Users\user\work\installed\libraryapp\node_modules\scheduler\cjs\scheduler.development.js:468:12)
+    at runWithPriority$1 (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:11276:10)
+    at flushSyncCallbackQueueImpl (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:11322:9)
+    at flushSyncCallbackQueue (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:11309:3)
+    at batchedUpdates$1 (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom.development.js:22387:7)
+    at act (C:\Users\user\work\installed\libraryapp\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1042:14)
+    at render (C:\Users\user\work\installed\libraryapp\node_modules\@testing-library\react\dist\pure.js:97:26)
+    at Object.&lt;anonymous&gt; (C:\Users\user\work\installed\libraryapp\src\App.test.js:6:3)
+    at Promise.then.completed (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _runTest (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\run.js:66:9)
+    at run (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\user\work\installed\libraryapp\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\user\work\installed\libraryapp\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\user\work\installed\libraryapp\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (C:\Users\user\work\installed\libraryapp\node_modules\jest-runner\build\testWorker.js:133:12)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
