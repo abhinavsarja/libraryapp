@@ -45,5 +45,6 @@ describe('Load Data Button click starts a spinner', () => {
 });
 
 
+// Apologies. Not an expert in writing jest unit test cases for asynchronous calls. We use cucumber + selenide automation suites + feature files for these scenarios.
 
 
