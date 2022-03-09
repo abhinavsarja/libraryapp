@@ -40,7 +40,6 @@ describe('Load Data Button click starts a spinner', () => {
     jest.runAllTimers();
     const loadingmask = getByTestId('mask');
     expect(loadingmask).toBeInTheDocument();
-    cleanup();
   });
 });
 
