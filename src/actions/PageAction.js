@@ -1,5 +1,5 @@
 import RestApi from './../api/RestApi';
-import { urls } from '../utils/constants';
+import { urls } from '../utils/constants'
 
 class PageAction {
     
