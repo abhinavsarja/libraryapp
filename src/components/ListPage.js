@@ -87,8 +87,8 @@ const ListPage = () => {
             </Modal>
             <div className="heading">
             <Space>
-                <Button data-testid="load-data" type="primary" onClick={(e) => loadData(false)}>Load Data</Button>
-                <Button type="danger" onClick={(e) => loadData(true)}>Load from Invalid URL</Button>
+                <Button data-testid="load-data" type="primary" onClick={() => loadData(false)}>Load Data</Button>
+                <Button type="danger" onClick={() => loadData(true)}>Load from Invalid URL</Button>
             </Space>
             </div>
             <div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, fireEvent, cleanup, mount } from '@testing-library/react';
+import { render, screen, fireEvent, cleanup } from '@testing-library/react';
 import App from './App';
 import './MockMatchmedia';
 import 'jest-dom/extend-expect';

@@ -20,6 +20,7 @@ export default class restApi {
     static handleServerError(error) {
         //Error can be handled in different ways depending on the returned http code.
         // For simplicity just returning the json to identify its an error.
+        console.log(error);
         return { status: "error" };
     }
 }
